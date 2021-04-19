@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source ~/virtualenv/audiobook_maker_3.7.9/bin/activate
+pip install -r requirements.txt
+export GOOGLE_APPLICATION_CREDENTIALS="./creds.json"
