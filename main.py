@@ -81,9 +81,9 @@ def main(path_for_pdf, project_id, model_display_name, language_code, voice_name
 
 
 if __name__ == "__main__":
-    path_for_pdf = './pdf/The-4-Hour-Work-Week.pdf'
-    project_id = 'audiobook-maker-297701'
-    model_display_name = 'modelo_1_16075452_20201209022505'
-    language_code = 'en-US'
-    voice_name = 'en-US-Wavenet-F'
+    path_for_pdf = ''
+    project_id = ''
+    model_display_name = ''
+    language_code = ''
+    voice_name = ''
     main(path_for_pdf, project_id, model_display_name, language_code, voice_name)
