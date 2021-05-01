@@ -18,7 +18,7 @@ The json file will include text that may not be important for an mp3, such as th
 
 - Convert the string to audio and save an mp3 file.
 
-Text-to-Speech transforms strings into audio, but can't procces strings with more than 5000 characters. So, we do it in a loop and create various segments of audio. To manipulate these segments and join them into one I used [pydub](https://pypi.org/project/pydub/) library.
+Text-to-Speech transforms strings into audio, but can't procces strings with more than 5000 characters. So, I used a loop and create various segments of audio. To manipulate these segments and join them into one I used [pydub](https://pypi.org/project/pydub/) library.
 
 ### What you need to do
 
